@@ -1,5 +1,47 @@
-#This is MY Portfolio Site
+# COMPONENT LIBRARY
 
-#Started on 27 March 2020
+## brand colors
+```
+- Primary Color
+- Primary Dark?
+- Gray
+```
+## typography
+```
+- h1
+- h2
+- text
+- text-sm
+```
+## container
+```
+- fluid
+- center
+```
+## button
+```
+- Primary Button
+- Secondary Button
+```
+## nav
+```
+- Brand
+- Link
+```
+## header
+```
+- image
+- heading
+```
+## section
 
-##Active in 10 Days
+## Lists
+```
+- Ordered List
+- Unordered List
+```
+## footer
+```
+- heading
+- Link
+```
