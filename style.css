@@ -9,3 +9,26 @@
 body {
   font-family: 'Poppins', sans-serif;
 }
+
+hr {
+  margin: 2rem 0;
+}
+
+#title {
+  font-size: 2rem;
+}
+
+/* px, em, rem  1rem = 16px*/
+
+/* containers */
+.container-fluid {
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+
+.container {
+  margin: auto;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  max-width: 600px;
+}
