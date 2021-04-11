@@ -50,7 +50,12 @@ hr {
   padding: 0.5rem 1rem;
   margin: 0.5rem;
   text-decoration: none;
+  transition: transform 0.2s;
 }
+
+/* .link:hover {
+  transform: scale(1.2);
+} */
 
 .primary-link {
   color: var(--white);
@@ -66,6 +71,17 @@ hr {
   border-radius: 0.5rem;
 }
 
+.primary-link-outline {
+  color: var(--dark-gray);
+  border: 1px solid var(--primary);
+  border-radius: 0.5rem;
+}
+
+.secondary-link-outline {
+  color: var(--dark-gray);
+  border: 1px solid var(--secondary);
+  border-radius: 0.5rem;
+}
 /* Lists */
 
 .unlisted {
@@ -84,10 +100,12 @@ hr {
   color: var(--white);
   border-bottom-left-radius: 1rem;
   border-bottom-right-radius: 1rem;
+  position: relative;
 }
 
 .navigation .brand-name {
   font-weight: 700;
+  position: absolute;
 }
 
 .navigation ul {
@@ -126,4 +144,44 @@ hr {
   width: 250px;
   border-radius: 50%;
   border: 1px solid var(--dark-gray);
+}
+
+/* sections */
+section {
+  padding: 2rem 0.5rem;
+}
+
+section h2 {
+  text-align: center;
+  font-weight: 700;
+}
+
+section.gray {
+  background-color: var(--dark-gray);
+  color: var(--white);
+}
+
+/* footer */
+
+footer {
+  background-color: var(--primary);
+  color: var(--white);
+  padding: 2rem 0;
+  border-top-left-radius: 1rem;
+  border-top-right-radius: 1rem;
+  text-align: center;
+}
+
+footer h2 {
+  font-weight: 700;
+  font-size: larger;
+}
+
+footer ul {
+  padding-inline-start: 0px;
+}
+
+footer ul li a {
+  text-decoration: none;
+  color: var(--white);
 }
