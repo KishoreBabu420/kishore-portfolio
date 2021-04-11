@@ -10,6 +10,7 @@
   --primary: #334155;
   --secondary: #b91c1c;
   --gray: #94a3b8;
+  --dark-gray: #34383d;
   --white: #ffffff;
 }
 
@@ -52,7 +53,7 @@ hr {
 }
 
 .primary-link {
-  color: var(--gray);
+  color: var(--white);
   background-color: var(--primary);
   border: 1px solid var(--primary);
   border-radius: 0.5rem;
@@ -107,4 +108,22 @@ hr {
 .navigation ul li a.active {
   font-weight: 700;
   color: var(--white);
+}
+
+/* Header */
+.hero {
+  color: var(--dark-gray);
+  display: block;
+}
+
+.hero img {
+  max-width: 350px;
+  margin: auto;
+  display: block;
+}
+.hero img.profile {
+  height: 250px;
+  width: 250px;
+  border-radius: 50%;
+  border: 1px solid var(--dark-gray);
 }
